@@ -1,3 +1,7 @@
+import style from "./style.module.css";
+
 export const Pokemon = ({ name = "nome não encontrado!" }) => (
-  <h2>Nome do pokemon: {name}</h2>
+  <a href="../" className={style.name}>
+    {name}
+  </a>
 );

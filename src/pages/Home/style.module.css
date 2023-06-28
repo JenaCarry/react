@@ -1,0 +1,15 @@
+.container {
+  width: 100%;
+  max-width: 512px;
+  text-align: center;
+  background-color: lightcoral;
+  border-radius: 8px;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+.image {
+  width: 250px;
+  margin: 0 auto;
+  padding: 16px;
+}
