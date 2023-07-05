@@ -1,24 +1,27 @@
+import "./NavBar.module.css";
 import { Link } from "react-router-dom";
 
 export function NavBar() {
   return (
     <div>
       <h1>
-        <Link to={"/"}>Inicio</Link>
+        <Link to={"/"}>Logo</Link>
       </h1>
       <nav>
-        <div>
-          <Link to={"/props"}>Props</Link>
-        </div>
-        <div>
-          <Link to={"/list"}>List</Link>
-        </div>
-        <div>
-          <Link to={"/event"}>Event</Link>
-        </div>
-        <div>
-          <Link to={"/contact"}>Contact</Link>
-        </div>
+        <ul>
+          <li>
+            <Link to={"/props"}>Props</Link>
+          </li>
+          <li>
+            <Link to={"/list"}>List</Link>
+          </li>
+          <li>
+            <Link to={"/event"}>Event</Link>
+          </li>
+          <li>
+            <Link to={"/contact"}>Contact</Link>
+          </li>
+        </ul>
       </nav>
     </div>
   );

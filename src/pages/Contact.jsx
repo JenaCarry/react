@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 export function Contact() {
   return (
@@ -9,13 +10,19 @@ export function Contact() {
       <h1>Página de contatos</h1>
       <ul>
         <li>
-          <Link to={"/contact/1"}>Forma de contato: 1</Link>
+          <Link to={"/contact/1"}>
+            <FaFacebook />
+          </Link>
         </li>
         <li>
-          <Link to={"/contact/2"}>Forma de contato: 2</Link>
+          <Link to={"/contact/2"}>
+            <FaInstagram />
+          </Link>
         </li>
         <li>
-          <Link to={"/contact/3"}>Forma de contato: 3</Link>
+          <Link to={"/contact/3"}>
+            <FaLinkedin />
+          </Link>
         </li>
       </ul>
     </div>
